@@ -80,6 +80,7 @@
 - Operatörlerden önce ve sonra birer boşluk ekleyin
 - Virgülden sonra boşluk ekleyin
 - Satır başı için tab (sekme) kullanın
+- bir tab 4 space olacak şekiklde IDE'nizi ayarlayın
 
 ### Yorumlar ve Belgelendirme
 
@@ -96,6 +97,8 @@
 - Eğer tip açıksa "var" ile değişken tanımlayın
 - Public field'lar yerine property'leri tercih edin
 - Aşırı "#region" kullanımından kaçınmaya çalışın
+- Mümkün oldukça primary constructor kullanın,
+- Yeni collection initialize edilirken mümkün oldukça "[]" kullanın (dotnet 7+) ya da Array.Empty<T>() ( dotnet 7 öncesi )
 
 ### Asenkron Programlama
 
